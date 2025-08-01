@@ -7,3 +7,18 @@ Due to the association with higher incidence of left ventricular dysfunction and
 # Usage
 ## Dataset
 Please organize the dataset as the following structure:
+```
+data/
+  -- S2/ (Storage for Phase II network training data (myocardial pathology segmentation task))
+     -- train_ideal/
+        -- label/
+        -- image/
+        -- roi/
+     -- val/
+        -- label/
+        -- image/
+        -- roi/
+        -- label3D/(if Patient-wise validation of segmentation accuracy needed)
+        -- image3D/(if Patient-wise validation of segmentation accuracy needed)
+        -- roi3D/(if Patient-wise validation of segmentation accuracy needed)
+```
