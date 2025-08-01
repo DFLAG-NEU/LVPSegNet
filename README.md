@@ -22,3 +22,14 @@ data/
         -- image3D/(if Patient-wise validation of segmentation accuracy needed)
         -- roi3D/(if Patient-wise validation of segmentation accuracy needed)
 ```
+## Citation and Acknowledge
+If this code is used in your research, please cite the original paper in any resulting publications to ensure proper attribution
+```
+@article{li2025segmentation,
+  title={Segmentation of the Left Ventricle and Its Pathologies for Acute Myocardial Infarction After Reperfusion in LGE-CMR Images},
+  author={Li, Shulin and Wu, Chongwen and Feng, Chaolu and Bian, Zijian and Dai, Yisi and Wu, Lian-Ming},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2025},
+  publisher={IEEE}
+}
+```
