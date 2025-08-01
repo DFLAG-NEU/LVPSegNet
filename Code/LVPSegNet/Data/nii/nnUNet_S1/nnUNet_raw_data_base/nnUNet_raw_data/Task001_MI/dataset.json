@@ -1,0 +1,31 @@
+{
+    "description": "MI and Cav segmentation",
+    "labels": {
+        "0": "background",
+        "1": "myocardium",
+        "2": "Cavity"
+    },
+    "licence": "",
+    "modality": {
+        "0": "MR"
+    },
+    "name": "MVO",
+    "numTest": 1,
+    "numTraining": 2,
+    "reference": "MI data for nnunet",
+    "release": "0.0",
+    "tensorImageSize": "3D",
+    "test": [
+        "./imagesTs/case_002.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/case_003.nii.gz",
+            "label": "./labelsTr/case_003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_001.nii.gz",
+            "label": "./labelsTr/case_001.nii.gz"
+        }
+    ]
+}
